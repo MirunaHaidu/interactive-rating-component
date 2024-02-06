@@ -1,0 +1,40 @@
+@import url('../index.css');
+
+
+.thank-you-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture img{
+    height: 80px;
+}
+
+.rating-text{
+    background-color: hsl(213, 19%, 24%);
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px;
+    width: 62%;
+    font-size: 13px;
+    color: var(--orange);
+    border-radius: 30px;
+}
+
+.thank-you-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.thank-you-text h1{
+    color: var(--white);
+    font-size: 23px;
+}
+
+.thank-you-text p {
+    color: var(--light-gray);
+    font-size: 13px;
+}

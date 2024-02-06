@@ -1,0 +1,27 @@
+@import url('../index.css');
+
+
+.rating-button{
+    background-color: hsl(213, 19%, 24%);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    color: var(--white);
+}
+
+.rating-button:hover{
+    background-color: var(--light-gray);
+    cursor: pointer;
+}
+
+.rating-button:focus{
+    background-color: var(--orange);
+}
+
+.rating-buttons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+

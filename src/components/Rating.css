@@ -1,0 +1,72 @@
+@import url('../index.css');
+
+
+.container{
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 25px;
+
+    box-shadow: var(--very-dark-blue) 20px -28px 36px -28px inset;
+  }
+
+  
+  .icon{
+    align-self: flex-start;
+    background-color: hsl(213, 19%, 24%);
+    padding: 5px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    
+  }
+
+  .icon img{
+    width: 55%;
+    
+  }
+
+
+  .submit-button{
+    border-radius: 20px;
+    padding: 10px;
+    color: var(--white);
+    background-color: var(--orange);
+    border: 0;
+  }
+
+  .submit-button:hover{
+    background-color: var(--white);
+    color: var(--orange);
+    cursor: pointer;
+  }
+  
+  
+  .text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .text h1{
+    color: var(--white);
+    font-size: 23px;
+  }
+  
+  .text p{
+    color: var(--light-gray);
+    font-size: 13px;
+  }
+  
+  .btn{
+    background-color: var(--medium-gray);
+  }
+  
+  
+  
+  
