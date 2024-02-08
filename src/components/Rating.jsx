@@ -26,7 +26,7 @@ const Rating = () => {
 
             
             <div className="icon">
-                <img src="./src/images/icon-star.svg" alt="Star Icon" />
+                <img src="./images/icon-star.svg" alt="Star Icon" />
             </div>
 
 

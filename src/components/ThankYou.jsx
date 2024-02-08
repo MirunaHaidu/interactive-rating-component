@@ -5,7 +5,7 @@ const ThankYou = ({ selectedRating }) => {
     return (
         <div className="thank-you-container">
             <div className="picture">
-                <img src="./src/images/illustration-thank-you.svg" alt="Star Icon" />
+                <img src="./images/illustration-thank-you.svg" alt="Star Icon" />
             </div>
 
 
